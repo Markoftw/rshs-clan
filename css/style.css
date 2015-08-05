@@ -1,0 +1,96 @@
+body{
+    font: 11px tahoma,helvetica,arial,sans-serif;
+}
+/*tbody > tr:nth-child(even) {
+    background-color: #303030;
+}
+tbody > tr:nth-child(odd) {
+    background-color: #808080;
+}*/
+
+table tr td{
+    background: none repeat scroll 0% 0% #505050;
+    background-image: url("../img/row_gradient.png");;
+    background-repeat: repeat-x;
+    background-position: 0px 0px;
+}
+tr td, thead th{
+    color: white;
+    padding: 10px;
+}
+#myTable { 
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+    line-height: 1.3;
+    border-spacing: 0px;
+    margin: 0px;
+}
+table td{
+    border-top: 1px solid #252525;
+    border-bottom: 1px solid #111;
+}
+thead{
+    height:39px;
+    text-align:left;
+    background: none repeat scroll 0% 0% #1F1F1F;
+}
+td, th{
+    display: table-cell;
+    vertical-align: inherit;
+}
+// TABLESORTER
+
+/*table.tablesorter tbody > tr:nth-child(odd) > td,
+table.tablesorter tbody > tr:nth-child(odd) > th {
+    background-color: #989898;
+}
+table.tablesorter {
+	font-size: 12px;
+	background-color: #4D4D4D;
+	//width: 1024px;
+	border: 2px solid #000;
+}
+table.tablesorter th {
+	text-align: left;
+	padding: 5px;
+	background-color: #6E6E6E;
+}
+table.tablesorter td {
+	color: #FFF;
+	padding: 5px;
+}
+table.tablesorter .even {
+	background-color: #3D3D3D;
+}
+table.tablesorter .odd {
+	background-color: #6E6E6E;
+}
+table.tablesorter .header {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #000;
+	border-top: 1px solid #FFF;        
+	padding-left: 25px;
+        text-align: center;
+	padding-top: 8px;
+	height: auto;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(../img/asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(../img/desc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter tbody tr.normal-row td {
+  background: #888;
+  color: #fff;
+}
+table.tablesorter tbody tr.alt-row td {
+  background: #555;
+  color: #fff;
+}*/
